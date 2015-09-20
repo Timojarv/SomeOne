@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url('social_media.jpg') center/cover no-repeat fixed;
+  color: #ecf0f1;
+}
+a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+h2 {
+  font-family: 'Junction';
+}
+#header {
+  height: 70px;
+  background: #9b59b6;
+  width: 100vw;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+}
+#footer{
+  height: 220px;
+  background: url('noise.png');
+  width: 100%;
+  text-align: center;
+}
+.letterpress{
+  font-size: 20px;
+  color: #222;
+  text-shadow: 0px 2px 3px #555;
+}
+.container {
+  width: 50%;
+  min-width: 800px;
+  margin: auto;
+}
+.card {
+  margin-top: 80px;
+  background: #9b59b6;
+  border-bottom: solid 1px #ecf0f1;
+}
+.divider {
+  margin: 80px auto 0px auto;
+  width: 40%;
+  min-width: 600px;
+  border-bottom: solid 1px #9b59b6;
+}
+.content {
+  padding: 30px;
+  height: 160px;
+}
+#page-content {
+  background: rgba(236, 240, 241, 0.9);
+  padding-bottom: 80px;
+}
+#header .logo {
+  display: inline-block;
+  font-family: 'Pacifico';
+  color: #ecf0f1;
+  line-height: 30px;
+  padding: 20px;
+  font-size: 2em;
+}
+#header .logo::before {
+  content: 'SomeOne';
+}
+#header .nav {
+  display: inline-block;
+  float: right;
+  height: 100%;
+}
+.down-icon {
+  width: 60px;
+  height: 60px;
+  margin-top: 35px;
+}
+.banner {
+  padding-top: 110px;
+  padding-bottom: 60px;
+  margin-bottom: -80px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.logo-big {
+  text-align: center;
+  margin: auto;
+  font-size: 8em;
+  color: #34495e;
+  font-family: 'Pacifico';
+}
+.logo-footer {
+  text-align: center;
+  margin: auto;
+  color: #34495e;
+  font-size: 2.5em;
+  font-family: 'Junction';
+  /*text-shadow: 1px 1px #ecf0f1;*/
+}
+.logo-big::before {
+  content: 'SomeOne';
+}
+.nav-link {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 30px;
+  padding: 20px;
+  transition: background 0.5s;
+}
+.nav-link:hover {
+  background: #8e44ad;
+}
+.nav-links {
+  list-style: none outside none;
+}
+.content-icon {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: #ecf0f1;
+  box-shadow: 0px 0px 5px 3px rgba(50, 50, 50, 0.5);
+}
+.camera {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('camera.svg') center/contain no-repeat;
+}
+.facebook {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('facebook.svg') center/contain no-repeat;
+}
+.content-icon.left {
+  float: left;
+  margin-right: 40px;
+}
+.content-icon.right {
+  float: right;
+  margin-left: 40px;
+}
