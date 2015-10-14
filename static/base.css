@@ -1,9 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300|Pacifico);
+@media all and (max-width: 600px){
+  .content-icon{
+    float: none !important;
+    margin: auto !important;
+  }
+  .align-right{
+    text-align: center !important;
+  }
+  .content{
+    text-align: center;
+  }
+}
 body {
   margin: 0;
   font-family: 'Oxygen';
   font-weight: 400;
-  background: url('social_media.jpg') center/cover no-repeat fixed;
+  background: url('social_media.jpg')  repeat center center fixed;
+  background-size: cover;
   color: #ecf0f1;
 }
 a {
@@ -25,7 +38,7 @@ h2 {
 }
 #footer{
   padding: 14px;
-  background: #2c3e50;
+  background: #9b59b6;
   text-align: center;
 }
 .anchor{
@@ -133,8 +146,15 @@ h2 {
 .nav-links {
   list-style: none outside none;
 }
+.align-right{
+  text-align: right;
+}
+.content-link{
+  color: #1abc9c;
+}
+/*HELLOOOOOOOOO*/
 .content-icon {
-  display: inline-block;
+  display: block;
   width: 160px;
   height: 160px;
   border-radius: 100px;
@@ -175,6 +195,20 @@ h2 {
   height: 160px;
   border-radius: 100px;
   background: url('question.svg') center/contain no-repeat;
+}
+.letter{
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('letter.svg') center/contain no-repeat;
+}
+.plane{
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('plane.svg') center/contain no-repeat;
 }
 .content-icon.left {
   text-align: left;
