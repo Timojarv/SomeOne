@@ -149,9 +149,6 @@ h2 {
 .align-right{
   text-align: right;
 }
-.align-center{
-  text-align: center;
-}
 .content-link{
   color: #1abc9c;
 }
@@ -164,6 +161,20 @@ h2 {
   background: #ecf0f1;
   box-shadow: 0px 0px 5px 3px rgba(50, 50, 50, 0.5);
 }
+.camera {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('camera.svg') center/contain no-repeat;
+}
+.facebook {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('facebook.svg') center/contain no-repeat;
+}
 .sonera {
   display: inline-block;
   width: 160px;
@@ -171,12 +182,26 @@ h2 {
   border-radius: 100px;
   background: url('sonera_logo.png') center/contain no-repeat;
 }
+.map {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('svg/reddit.svg') center/contain no-repeat;
+}
 .question{
   display: inline-block;
   width: 160px;
   height: 160px;
   border-radius: 100px;
   background: url('question.svg') center/contain no-repeat;
+}
+.letter{
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 100px;
+  background: url('letter.svg') center/contain no-repeat;
 }
 .plane{
   display: inline-block;
@@ -192,40 +217,12 @@ h2 {
   border-radius: 100px;
   background: url('comment.svg') center/contain no-repeat;
 }
-.checklist{
+.content{
   display: inline-block;
   width: 160px;
   height: 160px;
   border-radius: 100px;
-  background: #e04f5f url('checklist.svg') center/contain no-repeat;
-}
-.rocket{
-  display: inline-block;
-  width: 160px;
-  height: 160px;
-  border-radius: 100px;
-  background: url('rocket.svg') center/contain no-repeat;
-}
-.timo{
-  display: inline-block;
-  width: 160px;
-  height: 160px;
-  border-radius: 100px;
-  background: url('korento.png') center/160px no-repeat;
-}
-.emmi{
-  display: inline-block;
-  width: 160px;
-  height: 160px;
-  border-radius: 100px;
-  background: url('woman.svg') center/contain no-repeat;
-}
-.photo{
-  display: inline-block;
-  width: 160px;
-  height: 160px;
-  border-radius: 100px;
-  background: url('photo.svg') center/contain no-repeat;
+  background: url('content.svg') center/contain no-repeat;
 }
 .content-icon.left {
   text-align: left;
@@ -236,15 +233,4 @@ h2 {
   float: right;
   text-align: right;
   margin-left: 30px;
-}
-.some-icons{
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
-}
-.some-icon{
-  width: 50%;
-  height: 50%;
-  border-radius: 100%;
-  box-shadow: 0px 0px 2px 1px rgba(50, 50, 50, 0.5);
 }

@@ -1,0 +1,18 @@
+//  <div id='associates' class='anchor'></div>
+    <div class='divider'></div>
+    <div class='divider-heading'>Yhteistyössä</div>
+    <section class='card'>
+      <div class='container content'>
+        <div class='content-icon left'>
+          <div class='sonera'></div>
+        </div>
+        <h2>Sonera X</h2>Sonera X on nuorille tarkoitettu etukonsepti. Se tarjoaa alennuksia ja etuja sekä käytön huolettomuutta 18-25-vuotiaille nuorille.
+        Tämän kaiken lisäksi Sonera X tarjoaa myös X Tutorin, joka antaa neuvoja opiskelijaelämän tilanteisiin.
+        <a class='content-link' href='http://sonera.fi/x'>Klikkaa tästä </a>lukeaksesi lisää Sonera X:stä!
+        Yrityksemme käyttää Soneran tarjoamia älypuhelimia.
+      </div>
+    </section>//
+
+//
+<a class='nav-link' href='#associates'>Yhteistyössä</a>
+//
