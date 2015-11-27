@@ -37,37 +37,35 @@
   <div class="banner-wrapper">
     <div class='banner'>
       <div class='header'>
-        <div class='container wide'>
+        <div class='container container-wide'>
           <div class='nav'>
-              <a class='nav-link nav-local' href='#services'>Palvelumme</a>
-              <a class='nav-link nav-local' href='#customers'>Asiakkaamme</a>
-              <a class='nav-link nav-local' href='#contact'>Ota yhteyttä</a>
-              <br>
-              <a class="nav-link some" href='http://www.facebook.com/someoneny'>
-                <i class="fa fa-facebook"></i>
+            <a class="nav-link" href='http://www.facebook.com/someoneny'>
+              <i class="fa fa-facebook"></i>
+            </a>
+            </td>
+            <td>
+              <a class="nav-link" href='http://youtube.com/c/SomeOnemediafiofficial'>
+                <i class="fa fa-youtube-play"></i>
               </a>
-              </td>
-              <td>
-                <a class="nav-link some" href='http://youtube.com/c/SomeOnemediafiofficial'>
-                  <i class="fa fa-youtube-play"></i>
-                </a>
-              </td>
-              <td>
-                <a class="nav-link some" href='http://instagram.com/someonemedia_ny'>
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </td>
-              <td>
-                <a class="nav-link some" href='http://plus.google.com/+SomeOnemediafiofficial'>
-                  <i class="fa fa-google-plus"></i>
-                </a>
+            </td>
+            <td>
+              <a class="nav-link" href='http://instagram.com/someonemedia_ny'>
+                <i class="fa fa-instagram"></i>
+              </a>
+            </td>
+            <td>
+              <a class="nav-link" href='http://plus.google.com/+SomeOnemediafiofficial'>
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a class='nav-link nav-local' href='#services'>Palvelut</a>
+              <a class='nav-link nav-local' href='#contact'>Ota yhteyttä</a>
           </div>
         </div>
       </div>
       <div class='logo-big'></div>
-      <div class='logo-footer'>Sosiaalisen median palveluja.
+      <div class='logo-footer'>Sosiaalisen median palveluja
         <br>
-        <a class="nav-local chevron-down" href="#content"><i class="fa fa-chevron-down"></i></a>
+        <a class="nav-local" href="#content"><i class="chevron-down fa fa-chevron-down"></i></a>
       </div>
     </div>
   </div>
@@ -79,15 +77,56 @@
           <div class="content-symbol">
             <span style="font-family: 'Lato';">?</span>
           </div>
-          <h2>Mistä on kyse?</h2>
+          <h2>Mikä ihmeen some?</h2>
           <hr></hr>
           Nykyaikaisen yrityksen on tärkeä olla läsnä sosiaalisessa mediassa eli somessa. Some on jatkuvasti kasvava markkinointikanava, jonka kautta asiakkaat voi tavoittaa henkilökohtaisemmin. Monilta toimijoilta kuitenkin puuttuu kokemus, riittävät taidot ja
-          varsinkin aika someen perehtymiseen ja sen ylläpitämiseen.<br> <b>Me tarjoamme ratkaisun yrityksen koko someskaalan suunnitteluun, perustamiseen, ylläpitoon sekä sisällön tuotantoon ja vuorovaikutukseen.</b>
+          varsinkin aika someen perehtymiseen ja sen ylläpitämiseen. Me tarjoamme ratkaisun yrityksen koko someskaalan perustamiseen, ylläpitoon sekä sisällön tuotantoon.
 
         </div>
       </div>
     </div>
-    <div class="wrapper darker inset-shadow">
+    <div id='services' class='anchor'></div>
+    <div class="wrapper darker">
+      <div class='divider'>
+        <div class='divider-heading'>Palvelut</div>
+      </div>
+      <div class='card fluid-table'>
+        <div class='container content'>
+          <div class="content-symbol">
+            <i class="fa fa-users"></i>
+          </div>
+          <h2>Perustaminen</h2>
+          <hr></hr>
+          Kaikki alkaa sometilin perustamisella. Luomme sosiaalisen median tilin/tilit ja suunnittelemme niiden graafisen ilmeen yrityksenne imagon perusteella. Jos yrityksellänne kuitenkin on jo sometili niin perustamiskuluja ei veloiteta. Perustamismaksu on kertaluonteinen
+          ja hinta vaihtelee eri somepalveluiden välillä.
+        </div>
+      </div>
+
+      <div class='card fluid-table'>
+        <div class='container content'>
+          <div class="content-symbol">
+            <i class="fa fa-pencil"></i>
+          </div>
+          <h2>Sisällön tuotanto</h2>
+          <hr></hr>
+          Sisällön tuotantoon kuuluu päivitysten tekeminen ja julkaiseminen. Päivitysten pituus vaihtelee palvelusta toiseen. Esimerkiksi Twitterin ja Instagramin päivitystyylit ovat hyvinkin erilaiset. Samoin yhteen päivitykseen käytetty aika vaihtelee palveluiden
+          välillä. Asiakkaan halutessa voimme sopia etukäteen päivitysten julkaisulle päivät ja/tai kellonajat.
+        </div>
+      </div>
+
+      <div class='card fluid-table'>
+        <div class='container content'>
+          <div class="content-symbol">
+            <i class="fa fa-comments-o"></i>
+          </div>
+          <h2>Vuorovaikutus</h2>
+          <hr></hr>
+          Sosiaalisen median tärkeimpiä peruspilareita on vuorovaikutus muiden ihmisten kanssa. Ei riitä, että yritystä ihastellaan somessa niin sanotusti lasiseinän takaa vaan olennaista on, että asiakkaat pääsevät kommunikoimaan yrityksen kanssa suoraan. Näin
+          asiakkaiden mielenkiinto yritystä kohtaan nousee, ja asiakkaat saavat yrityksestä aktiivisen ja henkilökohtaisen kuvan.
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
       <div class='divider' style="background-position: 0px -200px;">
         <div class='divider-heading'>Keitä me olemme?</div>
       </div>
@@ -130,90 +169,8 @@
       </div>
     </div>
 
-    <div id='services' class='anchor'></div>
-    <div class="wrapper">
-      <div class='divider'>
-        <div class='divider-heading'>Palvelumme</div>
-      </div>
-      <div class='card fluid-table'>
-        <div class='container content'>
-          <div class="content-symbol">
-            <i class="fa fa-users"></i>
-          </div>
-          <h2>Perustaminen</h2>
-          <hr></hr>
-          Kaikki alkaa sometilin perustamisella. Luomme sosiaalisen median tilin/tilit ja suunnittelemme niiden graafisen ilmeen yrityksenne imagon perusteella. Jos yrityksellänne kuitenkin on jo sometili niin perustamiskuluja ei veloiteta. Perustamismaksu on kertaluonteinen
-          ja hinta vaihtelee eri somepalveluiden välillä.
-        </div>
-      </div>
-
-      <div class='card fluid-table'>
-        <div class='container content'>
-          <div class="content-symbol">
-            <i class="fa fa-pencil"></i>
-          </div>
-          <h2>Sisällön tuotanto</h2>
-          <hr></hr>
-          Sisällön tuotantoon kuuluu päivitysten tekeminen ja julkaiseminen. Päivitysten pituus vaihtelee palvelusta toiseen. Esimerkiksi Twitterin ja Instagramin päivitystyylit ovat hyvinkin erilaiset. Samoin yhteen päivitykseen käytetty aika vaihtelee palveluiden
-          välillä. Asiakkaan halutessa voimme sopia etukäteen päivitysten julkaisulle päivät ja/tai kellonajat.
-        </div>
-      </div>
-
-      <div class='card fluid-table'>
-        <div class='container content'>
-          <div class="content-symbol">
-            <i class="fa fa-comments-o"></i>
-          </div>
-          <h2>Vuorovaikutus</h2>
-          <hr></hr>
-          Sosiaalisen median tärkeimpiä peruspilareita on vuorovaikutus muiden ihmisten kanssa. Ei riitä, että yritystä ihastellaan somessa niin sanotusti lasiseinän takaa vaan olennaista on, että asiakkaat pääsevät kommunikoimaan yrityksen kanssa suoraan. Näin
-          asiakkaiden mielenkiinto yritystä kohtaan nousee, ja asiakkaat saavat yrityksestä aktiivisen ja henkilökohtaisen kuvan.
-        </div>
-      </div>
-    </div>
-
-    <div id='customers' class='anchor'></div>
-    <div class="wrapper darker inset-shadow">
-      <div class='card'>
-        <div class='container fluid'>
-          <div class='divider' style="background-position: 0px -200px;">
-            <div class='divider-heading'>Asiakkaamme</div>
-          </div>
-          <div class="customer-container">
-            <div class="customer-image" style="background-image: url('static/veturi.jpg')">
-              <div class="customer-info">
-                <img class="customer-logo" src="static/veturi.svg">
-                <div class="customer-heading v-centered-wrapper">
-                  <div class="v-centered">
-                    <h1>Kauppakeskus</h1>
-                    <h2>Veturi</h2>
-                  </div>
-                </div>
-                <p>Veturi on vuonna 2012 avattu, Kouvolassa sijaitseva kauppakeskus. Kooltaan se on Kaakkois-Suomen suurin ja Suomen kahdeksanneksi suurin kauppakeskus.</p>
-                <a href="http://www.instagram.com/kauppakeskusveturi/" class="rect-btn customer-btn">Veturi Instagramissa</a>
-              </div>
-            </div>
-            <div class="customer-image" style="background-image: url('static/kino123.jpg')">
-              <div class="customer-info">
-                <img class="customer-logo" src="static/kino123.svg">
-                <div class="customer-heading v-centered-wrapper">
-                  <div class="v-centered">
-                    <h1>Elokuvateatteri</h1>
-                    <h2>Kino 123</h2>
-                  </div>
-                </div>
-                <p>Kino 123 on uudessa Kauppakeskus Veturissa toimiva nykyaikainen elokuvateatteri. Kino 123:ssa on kolme salia, joissa on yhteensä noin 450 istumapaikkaa.</p>
-                <a href="http://www.instagram.com/k1no123/" class="rect-btn customer-btn">Kino 123 Instagramissa</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
     <div id='contact' class='anchor'></div>
-    <div class="wrapper">
+    <div class="wrapper darker">
       <div class='divider' style="background-position: 0px -400px;">
         <div class='divider-heading'>Ota yhteyttä</div>
       </div>
@@ -246,7 +203,7 @@
           </span>
         </div>
       </div>
-      <div class="wrapper">
+      <div class="wrapper darker">
         <div id='footer'>
           (c) 2015 SomeOne Media Ny - <a href="http://fontawesome.io">Font Awesome by Dave Gandy</a>
         </div>
